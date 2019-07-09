@@ -6,6 +6,7 @@ body {
     max-width: 960px;
     padding-right: 10px;
     padding-left:  10px;
+    padding: 40px 50px;
   }
 h1 {
     font-family: Abel;
@@ -20,17 +21,20 @@ h1 {
 
 
 .tribute_quote {
-    border: 1px solid #a0a5ae;
+    border-top: 1px solid #a0a5ae;
+    border-bottom: 1px solid #a0a5ae ;
+   
+    padding: 30px 10px 20px;
+    text-align: center;
+    font: italic 400 22px/1.3 Chronicle Display A,Chronicle Display B,serif;
+}
 }
 
    
 
 .tribute_lead {
-    font-family: Source Code Pro;
-    font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    letter-spacing: .4px;
     line-height: 1.75em;
     color: #fff;
 }
