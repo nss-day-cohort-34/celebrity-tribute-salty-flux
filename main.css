@@ -1,0 +1,49 @@
+#home-img {
+    width: 683px;
+    height: 384px; 
+}
+body{
+    background-color: rgba(0, 0, 0, 0.932);
+    margin: 1px;
+    
+}
+#main-header {
+    color: white;
+    text-align: center;
+    font-family: 'Notable', sans-serif;
+    font-size: 3em;
+    padding-bottom: 0px;
+    border: 0px;
+    margin: 0px;
+
+}
+.nav {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'Notable', sans-serif;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+li {
+    display: inline; 
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 
+}
+#summary {
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    font-size: 1.5em;
+    margin: 20px;
+    
+}
+.div {
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
