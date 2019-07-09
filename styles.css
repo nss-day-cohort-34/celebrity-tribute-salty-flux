@@ -1,0 +1,37 @@
+.dave_img {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.personal_life {
+    background-color: rgba(47, 47, 48, 0.863);
+    color: goldenrod;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    text-align: center;    
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+.family {
+    background-color: goldenrod;
+    color: rgba(47, 47, 48, 0.863);
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+p {
+    background-color: goldenrod;
+    color: rgba(47, 47, 48, 0.863);
+    padding-left: 10px;
+}
+
+/* .h2_image { 
+    border-radius: 50%;
+    justify-content: flex-start;
+}

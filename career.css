@@ -1,0 +1,46 @@
+body {
+    background-color: #100806;
+    color: #fff;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+  }
+h1 {
+    font-family: Abel;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1em;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+
+
+.tribute_quote {
+    border: 1px solid #a0a5ae;
+}
+
+   
+
+.tribute_lead {
+    font-family: Source Code Pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .4px;
+    line-height: 1.75em;
+    color: #fff;
+}
+.tribute_works {
+    display: inline-block;
+     display: flex;
+     flex-wrap: wrap;
+     padding: 5px;
+     height: 105px;
+     justify-content: space-between;
+     clear: both;
+  
+}
