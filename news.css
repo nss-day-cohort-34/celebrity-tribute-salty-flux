@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    background-size: cover;
+
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+nav {
+    background-color: white;
+    height: 30px;
+}
+
+.temp_nav {
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article__news {
+    background-color: rgb(34, 33, 33);
+    flex-basis: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 600px; 
+    padding-bottom: 20px;  
+    opacity: 0.8; 
+}
+
+.article__tour {
+    background-color: rgb(34, 33, 33);
+    flex-basis: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 600px;
+    opacity: 0.8; 
+}
+
+.page_name {
+    color: white;
+    text-align: center;
+}
+
+.tourdates {
+    list-style: none;
+}
+
+.eventname {
+    margin-bottom: 5px;
+}
+
+.place_city {
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.event_dates {
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
