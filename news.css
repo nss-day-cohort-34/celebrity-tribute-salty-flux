@@ -1,37 +1,36 @@
 body {
     background-color: black;
     background-size: cover;
-
+    background-repeat: no-repeat;
+    /* background-position: 0px 10px; */
 }
 
-header {
+/* header {
     margin-bottom: 30px;
-}
+} */
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
-
-nav {
-    background-color: white;
-    height: 30px;
 }
 
-.temp_nav {
-    font-size: 18px;
-    text-align: center;
-    align-content: center;
-}
 
 h2 {
     color: white;
     text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 28px;
+    /* font-family: 'PT Sans', sans-serif; */
 }
 
 h3 {
+    color: white;
+}
+
+h4 {
     color: white;
 }
 
@@ -53,7 +52,7 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 600px; 
     padding-bottom: 20px;  
     opacity: 0.8; 
@@ -68,17 +67,40 @@ p {
     opacity: 0.8; 
 }
 
-.page_name {
-    color: white;
-    text-align: center;
+.article__specials {
+    background-color: rgb(34, 33, 33);
+    flex-basis: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 600px;
+    opacity: 0.8; 
+    margin-top: 15px;
 }
 
-.tourdates {
-    list-style: none;
+.page_name {
+    font-family: 'Notable', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 35px;
+    text-shadow: 2px 2px black;
 }
 
 .eventname {
     margin-bottom: 5px;
+    color: rgb(190, 206, 221);
+}
+
+.tourdates {
+    list-style: none;
+   padding-left: 10px;
+}
+
+.special_links {
+    margin-bottom: 5px;
+    color: rgb(190, 206, 221);
+    padding-left: 10px;
 }
 
 .place_city {
@@ -92,8 +114,9 @@ p {
 }
 
 .headline {
-    margin-top: 3px;
+    margin-top: 8px;
     margin-bottom: 3px;
+    color: rgb(190, 206, 221);
 }
 
 .news_body {
@@ -101,25 +124,45 @@ p {
     margin-bottom: 3px;
 }
 
-a:link {
-    color: #darkred;
+/* a:link {
+    color: #darkgray;
+
+} */
+
+a {
+    color: white;
+    cursor: hand;
+    font-weight: bold;
   }
-  
-  a:visited {
-    color: darkgray;
-  }
-  
-  a:focus {
-    border-bottom: 1px solid;
-    background: #BAE498;
-  }
-  
-  a:hover {
-    border-bottom: 1px solid;     
-    background: #CDFEAA;
-  }
-  
-  a:active {
-    background: #265301;
-    color: #CDFEAA;
-  }
+
+/* a:visited {
+color: darkgray;
+}
+
+a:focus {
+border-bottom: 1px solid;
+background: black;
+}
+
+a:hover {
+border-bottom: 1px solid;     
+cursor: pointer;
+}
+
+a:active {
+background: rgb(19, 19, 19);
+color: darkgray;
+} */
+
+hr {
+    border-top: .5px solid rgb(190, 206, 221);
+    width: 300px;
+}
+.buy_tix {
+    margin-top: 5px;
+}
+
+.ticket_symbol {
+    float: left;
+    margin-right: 2px;
+}
