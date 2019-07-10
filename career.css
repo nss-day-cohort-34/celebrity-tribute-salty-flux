@@ -1,6 +1,10 @@
 body {
     background-color: #100806;
     color: #fff;
+}
+.tribute {
+    background-color: #100806;
+    color: #fff;
     margin-right: auto;
     margin-left:  auto;
     max-width: 960px;
@@ -8,8 +12,9 @@ body {
     padding-left:  10px;
     padding: 40px 50px;
   }
+ 
 
-h1 {
+.tribute_head {
     font-family: Abel;
     font-weight: 400;
     font-style: normal;
@@ -42,9 +47,6 @@ h1 {
      padding: 20px;
      justify-content: space-between;
      clear: both;
-     
-     
-  
 }
 .tribute_awards {
     display: flex;
@@ -83,4 +85,13 @@ h1 {
 }
 .work_title {
     text-align: center;
+}
+
+.tribute_name {
+    color: blue;
+    text-align: end;
+}
+.tribute_dosname {
+    color: blue;
+    
 }
