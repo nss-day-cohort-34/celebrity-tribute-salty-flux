@@ -1,0 +1,8 @@
+.footer-item {
+    color: white;
+    text-align: center;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+}

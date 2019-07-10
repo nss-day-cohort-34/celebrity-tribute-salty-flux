@@ -12,13 +12,11 @@
     color: white;
     text-align: center;
     font-size: 30px;
+
     padding: 15px;
     font-family: 'Notable', sans-serif;
     border: 0px;
     margin: 0px;
-    width: 100%;
-}
-
 li {
     display: inline; 
     border: 0px;
@@ -37,4 +35,6 @@ li {
     display: flex;
     padding-bottom: 40px;
     padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
