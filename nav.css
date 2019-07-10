@@ -1,20 +1,15 @@
-#main-header {
-    color: white;
-    text-align: center;
-    font-family: 'Notable', sans-serif;
-    font-size: 3em;
-    padding-bottom: 0px;
-    border: 0px;
-    margin: 0px;
-}
-
 .nav {
     color: white;
     text-align: center;
     font-size: 30px;
 
+    padding: 0px;
+    font-family: 'Notable', sans-serif;
+    border: 0px;
+    margin: 0px;
+}
 
-nav-list {
+.nav-list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -32,3 +27,6 @@ nav-list {
     display: flex;
     padding-bottom: 40px;
     padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
