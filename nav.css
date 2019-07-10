@@ -18,7 +18,7 @@
     border: 0px;
     margin: 0px;
 }
-    
+
 li {
     display: inline; 
     border: 0px;
@@ -39,4 +39,9 @@ li {
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
