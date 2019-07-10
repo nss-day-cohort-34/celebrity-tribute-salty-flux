@@ -30,3 +30,12 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+#main-header {
+    color: white;
+    text-align: center;
+    font-family: 'Notable', sans-serif;
+    font-size: 3em;
+    padding-bottom: 0px;
+    border: 0px;
+    margin: 0px;
+}
