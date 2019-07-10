@@ -53,10 +53,13 @@ body {
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
+
     
 }
 .tribute_awardlist {
    width: 150px;
+   margin: 5px;
+
 }
 .tribute_collabs{
     display: block;
