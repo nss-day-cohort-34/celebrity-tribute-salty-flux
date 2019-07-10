@@ -1,37 +1,61 @@
-.dave_img {
-    flex-wrap: wrap;
-    justify-content: space-between;
+body {
+    background-color: black;
+    margin: 1px;
 }
 
 .personal_life {
-    background-color: rgba(47, 47, 48, 0.863);
-    color: goldenrod;
-    font-family: 'Russo One', sans-serif;
+    background-color: goldenrod;
+    color: rgba(47, 47, 48, 0.863);
+    font-family: "Notable", sans-serif;
     font-size: 50px;
     text-align: center;    
 }
 
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Russo One', sans-serif;
+.dave_bio {
+    color: goldenrod;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 40px;
+    background-color: rgba(47, 47, 48, 0.863);
+    font-family: "Notable", sans-serif;
+}
+
+.biggums {
+    color: goldenrod; 
+    font-size: 50px;
+    text-align: left;
+    padding-left: 40px;
+    background-color: rgba(47, 47, 48, 0.863);
+    font-family: "Notable", sans-serif;
 }
 
 .family {
-    background-color: goldenrod;
-    color: rgba(47, 47, 48, 0.863);
-    font-size: 40px;
+    color: goldenrod;
+    font-size: 50px;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 40px;
+    background-color: rgba(47, 47, 48, 0.863);
+    font-family: "Notable", sans-serif;
+}
+
+.dave_img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.dave_img2 {
+    float: left;
+    margin: 0 20px 20px 0; 
+}
+
+.dave_img3 {
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 p {
-    background-color: goldenrod;
-    color: rgba(47, 47, 48, 0.863);
-    padding-left: 10px;
-}
-
-/* .h2_image { 
-    border-radius: 50%;
-    justify-content: flex-start;
+    color: whitesmoke;
+    padding-right: 150px;
+    font-family: "Hind", sans-serif;
+    padding-bottom: 10px;
 }
