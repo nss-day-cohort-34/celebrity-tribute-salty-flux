@@ -8,6 +8,7 @@ body {
     padding-left:  10px;
     padding: 40px 50px;
   }
+
 h1 {
     font-family: Abel;
     font-weight: 400;
@@ -19,7 +20,6 @@ h1 {
 }
 
 
-
 .tribute_quote {
     border-top: 1px solid #a0a5ae;
     border-bottom: 1px solid #a0a5ae ;
@@ -27,7 +27,6 @@ h1 {
     padding: 30px 10px 20px;
     text-align: center;
     font: italic 400 22px/1.3 Chronicle Display A,Chronicle Display B,serif;
-}
 }
 
    
