@@ -13,17 +13,20 @@
     text-align: center;
     font-size: 30px;
 
-    padding: 15px;
+    padding: 0px;
     font-family: 'Notable', sans-serif;
     border: 0px;
     margin: 0px;
 }
 
-li {
-    display: inline; 
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+
+
+
 }
 
 #summary {
@@ -33,7 +36,7 @@ li {
     margin: 20px; 
 }
 
-.div {
+.home-div {
     display: flex;
     padding-bottom: 40px;
     padding-top: 30px;
