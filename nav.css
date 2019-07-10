@@ -13,20 +13,12 @@
     text-align: center;
     font-size: 30px;
 
-    padding: 0px;
-    font-family: 'Notable', sans-serif;
-    border: 0px;
-    margin: 0px;
-}
 
 nav-list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
-
-
-
 }
 
 #summary {
@@ -40,11 +32,3 @@ nav-list {
     display: flex;
     padding-bottom: 40px;
     padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
